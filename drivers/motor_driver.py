@@ -42,7 +42,7 @@ class motor_driver:
             self.motor.forward(0)
         else:
             self.motor.forward(1)
-            self.motor.backward(0)
+            self.motor.backward(1)
 
     '''
     For other scripts to check the current encoder pulse count.
